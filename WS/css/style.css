@@ -1,0 +1,88 @@
+#head{
+  padding: -10px;  
+}
+#body{
+  background-color:#badae9;
+  background-image: url('/images/background3.jpg');
+}
+#body .nav{
+  padding-top: 50px;
+  font-size: 2px;
+}
+
+#foot{
+  margin-top: 100px;
+}
+
+#main-logo{
+  max-height: 180px;
+  max-width: 250px;
+  padding: 0px; 
+  margin-left: 10%;
+}
+
+#main-logo2{
+  max-height: 180px;
+  max-width: 250px;
+  padding: 0px; 
+  margin-left: 42%;
+  margin-bottom:5%;
+  border-radius: 6px;
+}
+
+#main-title{
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 90px;
+  text-align: center;
+  color: black; 
+  padding-top: 20px;
+}
+
+ul{
+  list-style: none;  
+  margin-left: 130px;
+  margin-bottom: 130px;
+}
+
+#body a{
+  color: black;
+  font-size: 20px;
+  text-decoration: none;
+  font-family: 'Lucida Sans', 'Unicode', Geneva, Verdana, sans-serif;
+}
+
+#body a:hover{
+  content: '';
+  width: 60px;
+  border-bottom: 2px solid red;
+  bottom: 0;
+  right: 350px;
+  transition: 0.2s all;
+  color: white;
+}
+
+hr{
+position: right;
+height: 12px;
+border: 0;
+box-shadow: inset 0 12px 12px -12px rgba(0, 0, 0, 0.5);
+}
+
+
+#foot .container{
+  text-align: center;
+  padding-bottom:70px;
+}
+#foot .container a{
+  text-align: center;
+}
+
+#foot a{
+  color:black;
+  font-size: 13px;
+}
+
+#foot a .insta:hover{
+  opacity: 0.4;
+ 
+}
